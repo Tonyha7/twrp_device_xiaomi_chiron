@@ -137,3 +137,16 @@ TARGET_USES_LOGD := true
 TW_THEME := portrait_hdpi
 TW_CUSTOM_CPU_TEMP_PATH := /sys/devices/virtual/thermal/thermal_zone5/temp
 TW_FRAMERATE := 60
+
+SHRP_DEVICE_CODE := chiron
+SHRP_PATH := device/xiaomi/$(SHRP_DEVICE_CODE)
+SHRP_MAINTAINER := Tonyha7
+SHRP_DEVICE_TYPE := A_Only
+SHRP_REC := /dev/block/bootdevice/by-name/recovery
+SHRP_HAS_RECOVERY_PARTITION := true
+SHRP_EDL_MODE := 1
+SHRP_INTERNAL := /sdcard
+SHRP_OTG := /usb_otg
+SHRP_DARK := true
+SHRP_EXPRESS := true
+SHRP_EXPRESS_USE_DATA := true
